@@ -4,40 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1920, height=1080, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Free Cycle</title>
+    <title>Home</title>
     <link rel="icon" href="logo.png">
     <link rel="stylesheet" href="index.css">
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet"> 
+    </head>
   <body>
-        <header>
-            <div>
-                <div id="top__nav" >
-                    <ul>
-                        <a>Login</a>
-                        <a>Sign Up</a>
-                    </ul>
+        <header class="header">
+                <div id="top__nav" class="nav">
+                    <button class="nav__buttons" id="login">Login</button>
+                    <button class="nav__buttons" id="sign__up">Sign Up</button>
                 </div>
-                <nav class = "navbar">
-                    <ul>
-                        <li><a><img src ="logo.png" width="20%" height=""></a></li>
-                        <li><a>Home</a></li>
-                        <li><a>Browse</a></li>
-                        <li><a>Our Mission</a></li>
-                        <li><input type="text" placeholder="browse..."></li>
-                    </ul>
-                </nav>
-            </div>
+                <div id = "main__nav__container">
+                    <div id="logo"> <img src="logo.png" width="100px"> </div>
+                    <nav id = "main__nav" class="nav">
+                        <a href="#">Home</a>
+                        <a href ="#">Browse</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Our Mission</a>
+                    </nav>
+                </div>
+            </di>
         </header>
     </main>
-        <h1>Freecycling!</h1>
-        <div id="about__us">
-            <h2>About Us</h2>
-            <p>FreeCycle is a platform that allows users to give away items they no longer need to others who may need them. This is a great way to reduce waste and help others in need. We believe that everyone has something to give and that everyone has something they need. We hope that FreeCycle can help connect people in need with those who have something to give.</p>
-        </div>  
-        <div id="sign__up">
-            <h2> Join us today!</h2>
-            <p>Freecycle is completely free to use! </p>
-            <button>Sign Up!</button>
+        <div class="main__content">
+            <div id="aboutus__box" class="textbox">
+                <h2>About Us</h2>
+                <p>FreeCycle is a platform that allows users to give away items they no longer need to others who may need them. This is a great way to reduce waste and help others in need. We believe that everyone has something to give and that everyone has something they need. We hope that FreeCycle can help connect people in need with those who have something to give.</p>
+            </div>  
+            <div id="signup__box" class="textbox">
+                <h2> Join us today!</h2>
+                <p>Freecycle is completely free to use! </p>
+                <a id="signup__button"><button>Sign Up!</button></a>
+            </div>
         </div>
     </main>
 
