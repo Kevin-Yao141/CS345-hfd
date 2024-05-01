@@ -2,12 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1920px, height=1080px, initial-scale=1.0">
+    <meta name="viewport" content="width=1920, height=1080, initial-scale=1.0">
     <title>Home</title>
-    <link rel="icon" href="logo.png">
+    <link rel="icon" href="bicycle-solid-yellow.svg">
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet"> 
-    </head>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">
+
+</head>
   <body>
         <header class="header">
                 <div id="top__nav" class="nav">
@@ -15,7 +16,10 @@
                     <a class="signup__button"><button>Sign Up</button></a>
                 </div>
                 <div id = "main__nav__container">
-                    <div id="logo"> <img src="logo.png" width="120px"> </div>
+                    <div id="logo">
+                        <img src="bicycle-solid.svg" width="50px">
+                        <div>FREECYCLING!</div>
+                    </div>
                     <nav id = "main__nav" class="nav">
                         <a href="#">Home</a>
                         <a href ="#">Browse</a>
@@ -28,20 +32,21 @@
     </main class="main">
         <div class="main__content">
         <div class="hero__image">
+            <div id="hero__text">
             <div id="aboutus__box" class="textbox">
-                <h2>Welcome to Freecycling!</h2>
-                <h3>Lets freecycle to make the world a better place!</h3>
+                <h2 style="font-size: 36px;">Welcome to Freecycling!</h2>
+                <p style="font-size: 56px;">Lets Freecycle to make the world a better place!</p>
             </div>  
             <div id="signup__box" class="textbox">
-                <h2> Join us today!</h2>
-                <p>Freecycle is 100% free to use and completely free from third party trackers and advertisers!</p>
-                <a class="signup__button"><button>Sign Up!</button></a>
-                <p>Already a member? <a href="#">Login</a></p>
+                <a><h2 style="font-size: 36x;"> Join us today!</h2></a>
+                <a><p style="font-size: 26px;">Freecycle is 100% free to use and completely free from third party trackers and advertisers!</p></a>
+                <a class="signup__button" id="sign__up"><button>Sign Up!</button></a>
+                <p style="font-size: 16px;">Already a member? <a id="login-link"href="#">Login</a></p>
+            </div>
             </div>
         </div>
         </div>
     </main>
-
 
 	<script src="script.js"></script>
   </body>
