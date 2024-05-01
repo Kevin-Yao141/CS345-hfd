@@ -2,16 +2,20 @@
 var modal = document.getElementById('popup-menu');
 
 //get button
-var btn = document.getElementById('trigger-modal');
+var main_btn = document.getElementById('trigger-modal');
+var nav_btn = document.getElementById('trigger-modal2');
+
 
 //get close button
 var close = document.getElementsByClassName('close')[0];
 
 // On button click, open modal
-btn.onclick = function() {
+main_btn.onclick = function() {
   modal.style.display = 'block';
 } 
-
+nav_btn.onclick = function() {
+    modal.style.display = 'block';
+  } 
 // On close button click, close modal
 close.onclick = function() {
   modal.style.display = 'none';
