@@ -21,7 +21,6 @@ close.onclick = function() {
   modal.style.display = 'none';
 }
 
-// On outside click, close modal
 window.onclick = function(event) { 
     if (event.target == modal) {
         modal.style.display = 'none';
