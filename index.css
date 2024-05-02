@@ -17,7 +17,7 @@ body {
     left: 0;
     width: 100%;
     background-color: #edff21;
-    height: 160px;
+    height: 140px;
 }
 
 .nav a{
@@ -48,7 +48,7 @@ body {
 #main__nav__container{
     display: flex;
     position: relative;
-    padding: 0px 10px;
+    padding: 0px 60px;
     align-items: center;
     justify-content: space-between;
     
@@ -56,10 +56,10 @@ body {
 
 #main__nav{
     padding: 0 auto;
-    width: 50vw;
     text-align: center;
 
 }
+
 
 #main__nav a{
     float: none;
