@@ -93,7 +93,7 @@ body {
 
 .hero__image{
     background-image: url("background_transparent.png");
-    background-size: 100vh;
+    background-size: 850px;
     height: 90vh;
     background-position: right;
     background-repeat: no-repeat;
